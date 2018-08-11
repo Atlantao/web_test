@@ -1,13 +1,15 @@
 package com.itcast;
 
 
+import org.junit.Test;
+
 public class TestController {
   
     public static void main(String[] args) {
         System.out.println("Web_test 测试");
     }
 
-
+    @Test
     public void test(){
         // i 的for循环
         int i = 10;
