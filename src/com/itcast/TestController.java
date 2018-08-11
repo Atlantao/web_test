@@ -23,7 +23,15 @@ public class TestController {
             System.out.println("x:"+x);
         }
 
-        // ====================================================================
+        // if
+        String str = null;
+        if (str == null) {
+            System.out.println("str is null");
+        }
+        if (str != null) {
+            System.out.println("str is not null");
+        }
+
     }
 
 }
